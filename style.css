@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0ch;
+    padding: 0ch;
+   
+}
+body{
+    background-color:black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.list{
+    cursor: pointer;
+    text-transform:uppercase;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position:fixed;
+    right: 0ch;
+    left: 0px;
+    margin: 0px 20px 0px 20px; 
+    padding: 10px 0px;
+    background-color: black;
+    z-index: 1;
+
+}
+.list .lv{
+    padding: 5px 10px 5px 10px;
+    color: #999999;
+    cursor: pointer;
+    
+}
+.lv:hover{
+    background-color:rgba(255, 255, 255, 0.3);
+   
+}
+
+.active{
+    background-color:rgba(255, 255, 255, .3);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@keyframes love-anime{
+    from{
+        
+        -webkit-text-stroke: 2px white;
+    }
+    to{
+        
+        -webkit-text-stroke: 2px rgb(102, 102, 102);
+    }}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    text-transform: capitalize;
+    position: relative;
+    top: 60px;
+    animation-name: love-anime;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+.i-do{
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    top: 50px;
+}
+
+.po{
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.me{
+    height:365px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    z-index: -1;
+    margin: 0px 20px 50px 20px;
+}
+#about {
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    outline: none;
+    letter-spacing: 2px;
+    padding:50px 20px 0px 20px;
+    font-size:30px;
+}
+.straight-line{
+    width: 300px;
+    margin:30px 20pc 30px 20px;  
+}
+#about-me{
+    margin: 0px 20px 0px 20px;
+    text-align: justify;
+    color: #757575;
+}
+#MY-skill{
+    font-family:Arial, Helvetica, sans-serif;
+    outline: none;
+    letter-spacing: 2px;
+    margin: 40px 20px 0px 20px;
+    font-size:30px;
+}
+.photo{
+    font-size:20px;
+    margin: 40px 20px 0px 20px;
+}
+.hash{
+    width: 350px;
+    height: 30px;
+    background-color: #616161;
+ 
+}
+.white-2{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+.hash-2{
+    width: 300px;
+    height: 30px;
+    background-color: #616161;
+ 
+}
+.white-3{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+}.hash-3{
+    width: 280px;
+    height: 30px;
+    background-color: #616161;
+ 
+}
+.white{
+    width: 50px;
+    height: 30px;
+    background-color: white;
+}
+#rating{
+    display: flex;
+    margin: 30px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.attr{
+    text-align: center;
+    background-color:#f1f1f1;
+    margin:  5px 20px 0px 20px;
+    color: black;
+}
+.ach{
+    padding:30px 0pc ;
+}
+.snd-line{
+    margin:  0px 20px 0px 20px;
+}
+#dd{
+    width: 30px;
+    margin: 0ch;
+    
+}
+.btn{
+    margin: 30px 20px;
+    height: 50px;
+    background-color:#f1f1f1;
+
+}
+.btn:hover{
+    border: white solid 2px;
+}
+.tag{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.lm, .lmn{
+    padding: 20px 0px;
+    border-bottom: #616161 solid 0.5px;
+    margin: 0px 20px;
+    background-color: #999999;
+    color: black;
+}
+.lmn{
+    background-color: #3a3a3a;
+    color: #999999;
+    font-size: 25px;
+}
+#pre{
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    outline: none;
+    letter-spacing: 2px;
+    padding: 50px 20px 0px 20px;
+    font-size:30px;
+
+}
+.bnt{
+    padding: 20px 30px;
+    background-color: #999999;
+    border: none;
+}
+#nin{
+    background-color:#919191;
+}
+.like {
+    width: 100px;
+    border-bottom-right-radius:20%;
+    border-bottom-left-radius:20%;
+    
+}
+.pro{
+    display: flex
+}
+
+.mig{
+    margin-bottom: 40px;
+    
+}
+#whole{
+    display:flex;
+
+}
+.wotx{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.ui{
+    width: 20rem;
+    padding:20px 0px;
+}
+.quote{
+    z-index: 1;
+    position: fixed;
+}
+.mq{
+    margin-left:100px;
+}
+#wo{
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    outline: none;
+    letter-spacing: 2px;
+    padding: 50px 20px 0px 20px;
+    font-size:30px;
+}
+.cont{
+    display: flex;
+}
+.no{
+    line-height:95px;
+}
+#tree{
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    outline: none;
+    letter-spacing: 2px;
+    margin: 100px 20px 30px 20px;
+    font-size:30px;
+}
+.ere::selection{
+    background-color:white;
+    color: black;
+}
